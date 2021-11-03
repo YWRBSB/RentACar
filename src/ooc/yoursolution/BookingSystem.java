@@ -16,11 +16,21 @@ public class BookingSystem implements BookingSystemInterface {
     @Override
     public RentACarInterface setupRentACar(BufferedReader in) throws IOException {
        
-         RentACarInterface booking = new RentACar();
-         String companyName = in.readLine();
-         String make = in.readLine().toUpperCase();
-        return booking;
+         RentACarInterface rentacar  = new RentACar();
+         in.readLine();
+         String text= in.readLine();
+         String[] carSplit;
          
+         while (text != null){
+             
+             carSplit = text.split(":");
+             rentACar = new rentACar (carSplit[0], Integer.parseInt(carSplit[1]), Integer.parseInt(carSplit[2]));
+             rentacar.getCars();
+             text = in.readLine();
+                     
+         }
+         
+         return rentACar;
          
          
     }
