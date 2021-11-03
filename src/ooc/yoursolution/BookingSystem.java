@@ -10,6 +10,8 @@ import java.io.IOException;
 /**
  *
  * @author Yuri
+ * 
+ * No idea about to do it
  */
 public class BookingSystem implements BookingSystemInterface {
 
