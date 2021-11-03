@@ -11,7 +11,7 @@ import java.io.IOException;
  *
  * @author Yuri
  * 
- * No idea about to doing it
+ * No idea about doing it
  */
 public class BookingSystem implements BookingSystemInterface {
 
