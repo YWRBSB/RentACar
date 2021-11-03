@@ -13,7 +13,7 @@ import ooc.enums.Month;
  *
  * @author Yuri
  * 
- * No idea about to doing it.
+ * No idea about doing it.
  */
 public class RentACar implements RentACarInterface{
 
